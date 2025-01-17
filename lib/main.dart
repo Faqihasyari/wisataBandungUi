@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tempat_wisata_dicoding/main_screen.dart';
 import 'detail_screen.dart';
 
 void main() => runApp(const WisataBandung());
@@ -11,7 +12,7 @@ class WisataBandung extends StatelessWidget {
     return MaterialApp(
       title: 'Wisata Bandung',
       theme: ThemeData(),
-      home: DetailScreen(),
+      home: MainScreen(),
       debugShowCheckedModeBanner: false,
       
     );
